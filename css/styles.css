@@ -7,13 +7,13 @@ body{
   flex-direction: column;
 }
 @font-face {
-   font-family: myRainFont;
-   src: url(/Users/brimende1/Documents/Develop/link-tutorial/fonts/rain.otf);
+  font-family: myRainFont;
+  src: url(/Users/brimende1/Documents/Develop/link-tutorial/fonts/rain.otf);
 }
 .mac-img {
-    position: absolute;
-    margin: 227px 0px 0px -440px;
-    z-index: 1;
+  position: absolute;
+  margin: 227px 0px 0px -440px;
+  z-index: 1;
 }
 .mac-img img {
   width: 1343px;
@@ -39,8 +39,8 @@ body{
 
 }
 .side-up-menu a:hover{
-   color: #fff;
-   text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
 }
 .side-up-menu ul {
   display: flex;
@@ -70,6 +70,7 @@ body{
   top: 260px;
   text-align: center;
 }
+
 .hero h1.craft{
   font-size: 14em;
   margin: 0 auto;
@@ -92,11 +93,11 @@ body{
   padding: 380px 0px 0px 0px;
 }
 .first-content-title {
-    position: absolute;
-    margin: -160px 0px 0px 0px;
+  position: absolute;
+  margin: -160px 0px 0px 0px;
 }
 .first-content-divs {
-    padding: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
 }
 .first-content-headers {
   margin-bottom: 3px;
@@ -106,15 +107,35 @@ body{
   line-height: 25px;
 }
 .first-content-center, .first-content-right {
-    width: 215px;
+  width: 215px;
 }
 .first-content-center-img {
-    position: absolute;
-    margin: 0px 15px 10px -105px;
+  position: absolute;
+  margin: 0px 15px 10px -105px;
 }
 /* SECOND CONTENT */
 .second-content {
   background-color: #000;
+  display: flex;
+  padding: 170px;
+  justify-content: center;
+}
+.second-content-divs {
+  width: 340px;
+  padding: 0px 68px 0px 85px;
+}
+.second-content h2 {
+  color: #fff
+}
+.second-content p {
+  color: #999999;
+  font-size: 1.1em;
+}
+.second-content a {
+  color: #F7F7F7
+}
+p.second-content-paragraphs {
+    padding-bottom: 21px;
 }
 /* FOOTER */
 .footer {
