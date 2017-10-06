@@ -10,6 +10,10 @@ body {
   font-family: myRainFont;
   src: url(fonts/rain.otf);
 }
+@font-face {
+  font-family: myGetStartedFont;
+  src: url(fonts/eligiblesans-regular.ttf);
+}
 .mac-img {
   position: absolute;
   margin: 227px 0px 0px -440px;

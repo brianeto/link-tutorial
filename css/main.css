@@ -31,7 +31,9 @@ body {
     color: #E8A29B; }
     .top-navbar a:hover {
       color: #fff;
-      text-decoration: underline; }
+      border-bottom: solid black 2px;
+      padding-bottom: 5px;
+      transition: 0.2s ease-out; }
 
 .top-title {
   width: 50%;
@@ -59,28 +61,49 @@ body {
     font-size: 1.5em;
     line-height: 45px;
     color: #fff; }
+  .hero .mac-img {
+    position: absolute;
+    margin: 0px 0px 0px -450px;
+    z-index: 1; }
+    .hero .mac-img img {
+      width: 1343px; }
+  .hero img.mouse {
+    position: absolute;
+    padding-top: 74px; }
 
-/* FEATURES CONTENT */
-.features {
+/* FEATURES CONTENT & REASONS CONTENT */
+.features,
+.reasons {
   background-color: #fff;
   display: flex;
   justify-content: space-evenly;
   padding: 380px 0px 150px 0px; }
-  .features-title {
+  .features-title,
+  .reasons-title {
     position: absolute;
     margin: -160px 0px 0px 0px; }
-  .features-wrapper {
+  .features-wrapper,
+  .reasons-wrapper {
     padding: 0px 0px 20px 0px; }
-  .features-headers {
+  .features-headers,
+  .reasons-headers {
     margin-bottom: 3px; }
-  .features-paragraphs {
+  .features-paragraphs,
+  .reasons-paragraphs {
     margin-top: -2px;
     line-height: 25px; }
-  .features-center, .features-right {
+  .features-center, .features-right,
+  .reasons-center,
+  .reasons-right {
     width: 215px; }
-  .features-center-img {
+  .features-center-img,
+  .reasons-center-img {
     position: absolute;
     margin: 0px 15px 10px -105px; }
+
+.reasons {
+  flex-direction: row-reverse;
+  padding: 200px 0px 150px 0px; }
 
 /* OUR TEAM CONTENT*/
 .our-team {
@@ -92,18 +115,83 @@ body {
     width: 340px;
     padding: 0px 68px 0px 85px; }
   .our-team h2 {
-    color: #fff; }
+    color: #fff;
+    position: absolute;
+    margin-top: -40px; }
   .our-team p {
     color: #999999;
     font-size: 1.1em; }
   .our-team a {
-    color: #F7F7F7; }
+    color: #F7F7F7;
+    text-decoration: none;
+    padding-bottom: 5px; }
+    .our-team a:hover {
+      color: #fff;
+      transition: all 0.3s ease-in-out 0s;
+      border-bottom: solid #D54736 2.5px; }
   .our-team p.our-team-paragraphs {
     padding-bottom: 21px; }
+  .our-team p.lol {
+    position: absolute;
+    font-size: 5em;
+    margin: -93px 0px 0px -18px;
+    color: #D54736; }
 
-.mac-img {
-  position: absolute;
-  margin: 0px 0px 0px -450px;
-  z-index: 1; }
-  .mac-img img {
-    width: 1343px; }
+/* GET STARTED CONTENT*/
+.get-started {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 150px 0px; }
+  .get-started-title {
+    position: absolute;
+    margin: -160px 0px 0px 0px; }
+  .get-started-wrapper {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column; }
+  .get-started h3 {
+    align-self: center; }
+  .get-started p {
+    font-family: myGetStartedFont;
+    font-size: 3em;
+    line-height: 90px;
+    text-align: center; }
+  .get-started span {
+    border-bottom: solid #D54736 2.5px;
+    padding-bottom: 5px; }
+
+/* FOOTER TOP CONTENT*/
+.footer-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 160px 0px 50px 0px; }
+  .footer-top-wrapper {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column; }
+    .footer-top-wrapper h4 {
+      color: #D54736;
+      align-self: center; }
+    .footer-top-wrapper h2 {
+      font-size: 8em;
+      color: #fff;
+      margin-top: -9px; }
+      .footer-top-wrapper h2 span {
+        color: #D54736; }
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 0px 0px 105px 0px; }
+  .footer-bottom p {
+    font-size: 1.2em;
+    color: grey;
+    line-height: 30px; }
+  .footer-bottom-wrapper {
+    padding: 0px 80px 20px 80px;
+    display: flex;
+    flex-direction: column; }
+    .footer-bottom-wrapper p.footer-bottom-wrapper-title {
+      color: #fff; }
