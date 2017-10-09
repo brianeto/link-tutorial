@@ -12,7 +12,7 @@ body {
 .top {
   display: flex;
   padding: 0px 0px 740px 0px;
-  background-color: #D54736; }
+  background-color: #76EBFD; }
 
 .top-navbar {
   text-align: center;
@@ -28,7 +28,7 @@ body {
     width: 100px; }
   .top-navbar a {
     text-decoration: none;
-    color: #E8A29B; }
+    color: #fff; }
     .top-navbar a:hover {
       color: #fff;
       border-bottom: solid black 2px;
@@ -64,10 +64,10 @@ body {
     text-align: left; }
   .hero .mac-img {
     position: absolute;
-    margin: 0px 0px 0px -450px;
+    margin: 70px 0px 0px 265px;
     z-index: 1; }
     .hero .mac-img img {
-      width: 1343px; }
+      width: 950px; }
   .hero img.mouse {
     position: absolute;
     padding-top: 74px; }
@@ -133,14 +133,14 @@ body {
     .our-team a:hover {
       color: #fff;
       transition: all 0.3s ease-in-out 0s;
-      border-bottom: solid #D54736 2.5px; }
+      border-bottom: solid #76EBFD 2.5px; }
   .our-team p.our-team-paragraphs {
     padding-bottom: 21px; }
   .our-team p.lol {
     position: absolute;
     font-size: 5em;
     margin: -93px 0px 0px -18px;
-    color: #D54736; }
+    color: #76EBFD; }
 
 /* GET STARTED CONTENT*/
 .get-started {
@@ -162,7 +162,7 @@ body {
     line-height: 90px;
     text-align: center; }
   .get-started span {
-    border-bottom: solid #D54736 2.5px;
+    border-bottom: solid #76EBFD 2.5px;
     padding-bottom: 5px; }
 
 /* FOOTER TOP CONTENT*/
@@ -176,14 +176,14 @@ body {
     display: flex;
     flex-direction: column; }
     .footer-top-wrapper h4 {
-      color: #D54736;
+      color: #76EBFD;
       align-self: center; }
     .footer-top-wrapper h2 {
       font-size: 8em;
       color: #fff;
       margin-top: -9px; }
       .footer-top-wrapper h2 span {
-        color: #D54736; }
+        color: #76EBFD; }
 
 .footer-bottom {
   display: flex;
@@ -205,15 +205,15 @@ body {
 .button-one {
   padding: 2px 18px;
   outline: none;
-  background-color: #D54736;
+  background-color: #76EBFD;
   text-align: center;
   cursor: pointer;
   font-size: 12px;
   margin: -3px 0px 0px 30px;
   border-radius: 5px; }
   .button-one:hover {
-    background-color: #76EBFD; }
+    background-color: #D54736; }
   .button-one:active {
-    background-color: #76EBFD;
-    box-shadow: #D54736;
+    background-color: #D54736;
+    box-shadow: 0 5px #76EBFD;
     transform: translateY(4px); }

@@ -1,6 +1,6 @@
 /* VARIABLES COLORS */
-$red-bg: #D54736;
 $blue-bg: #76EBFD;
+$red-bg: #D54736;
 $navbar-anchor : #E8A29B;
 $white: #fff;
 $black: #000;
@@ -22,7 +22,7 @@ body {
 .top {
   display: flex;
   padding: 0px 0px 740px 0px;
-  background-color: $red-bg;
+  background-color: $blue-bg;
 }
 
   // Top side navbar
@@ -43,9 +43,9 @@ body {
   }
   & a {
     text-decoration: none;
-    color: $navbar-anchor;
+    color: $white;
 
-    &:hover{
+    &:hover {
       color: $white;
       border-bottom: solid black 2px;
       padding-bottom: 5px;
@@ -90,11 +90,10 @@ body {
   // Mac image
   .mac-img {
     position: absolute;
-    margin: 0px 0px 0px -450px;
+    margin: 70px 0px 0px 265px;
     z-index: 1;
-
     & img {
-      width: 1343px;
+      width: 950px;
     }
   }
   & img.mouse {
@@ -172,7 +171,7 @@ body {
     &:hover {
       color: $white;
       transition: all 0.3s ease-in-out 0s;
-      border-bottom: solid $red-bg 2.5px;
+      border-bottom: solid $blue-bg 2.5px;
     }
   }
   & p.our-team-paragraphs{
@@ -182,7 +181,7 @@ body {
     position: absolute;
     font-size: 5em;
     margin: -93px 0px 0px -18px;
-    color: $red-bg;
+    color: $blue-bg;
   }
 }
 
@@ -211,7 +210,7 @@ body {
     text-align: center;
   }
   & span {
-    border-bottom: solid $red-bg 2.5px;
+    border-bottom: solid $blue-bg 2.5px;
     padding-bottom: 5px;
   }
 }
@@ -227,9 +226,8 @@ body {
     padding: 0px 0px 20px 0px;
     display: flex;
     flex-direction: column;
-
     & h4 {
-      color: $red-bg;
+      color: $blue-bg;
       align-self: center;
     }
     & h2 {
@@ -237,7 +235,7 @@ body {
       color: $white;
       margin-top: -9px;
       & span {
-        color: $red-bg;
+        color: $blue-bg;
       }
     }
   }
@@ -265,11 +263,11 @@ body {
   }
 }
 
-/*Button change page color*/
+/*Button Change page color*/
 .button-one {
   padding:2px 18px;
   outline: none;
-  background-color: $red-bg;
+  background-color: $blue-bg;
   text-align: center;
   cursor: pointer;
   font-size:12px;
@@ -277,11 +275,11 @@ body {
   border-radius:5px;
 
   &:hover {
-    background-color: $blue-bg;
+    background-color: $red-bg;
   }
   &:active {
-    background-color: $blue-bg;
-    box-shadow: $red-bg;
+    background-color: $red-bg;
+    box-shadow: 0 5px $blue-bg;
     transform: translateY(4px);
   }
 }
