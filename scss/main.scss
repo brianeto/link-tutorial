@@ -10,32 +10,26 @@ $light-grey: #F7F7F7;
 
 /* BODY OF THE PAGE */
 body {
-  display: flex;
-  max-width: 1920px;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  flex-direction: column;
 }
 
-/* TOP SIDE CONTENT*/
-.top {
+/* HEADER SIDE CONTENT*/
+.header {
   display: flex;
   padding: 0px 0px 740px 0px;
   background-color: $red-bg;
 }
 
-  // Top side navbar
-.top-navbar {
+  // Header side navbar
+.header-navbar {
   text-align: center;
   padding: 50px 0px 0px 200px;
   width: 50%;
-  height: 26%;
-  list-style: none;
 
   & ul {
     display: flex;
-    max-height: fit-content;
     list-style: none;
   }
   & li {
@@ -45,7 +39,7 @@ body {
     text-decoration: none;
     color: $navbar-anchor;
 
-    &:hover{
+    &:hover {
       color: $white;
       border-bottom: solid black 2px;
       padding-bottom: 5px;
@@ -54,10 +48,9 @@ body {
   }
 }
 
-  // Top side title
-.top-title {
+  // Header side title
+.header-title {
   width: 50%;
-  height: 26%;
   display: flex;
   padding: 50px 0px 0px 200px;
   color: $white;
@@ -76,7 +69,6 @@ body {
     font-size: 14em;
     margin: 0 auto;
     color: $white;
-    font-family: myRainFont;
   }
   & p {
     width: 460px;
@@ -112,7 +104,7 @@ body {
   padding: 380px 0px 150px 0px;
 
   & p {
-    color: #B0B0B0;
+    color: $dark-grey;
     padding-top: 8px;
   }
   &-title {
@@ -175,7 +167,7 @@ body {
       border-bottom: solid $red-bg 2.5px;
     }
   }
-  & p.our-team-paragraphs{
+  & p.our-team-paragraphs {
     padding-bottom: 21px;
   }
   & p.lol {
@@ -204,11 +196,12 @@ body {
   & h3 {
     align-self: center;
   }
-  & p {
+  & address {
     font-family: myGetStartedFont;
     font-size: 3em;
     line-height: 90px;
     text-align: center;
+    font-style: normal;
   }
   & span {
     border-bottom: solid $red-bg 2.5px;
@@ -249,18 +242,36 @@ body {
   background-color: #000;
   padding: 0px 0px 105px 0px;
 
-  & p {
+  & address {
     font-size: 1.2em;
     color: grey;
     line-height: 30px;
+    font-style: normal;
   }
   &-wrapper {
     padding: 0px 80px 20px 80px;
     display: flex;
     flex-direction: column;
 
-    & p.footer-bottom-wrapper-title {
+    & address.footer-bottom-wrapper-title {
       color: $white;
+      font-style: normal;
+    }
+    & a {
+      color: $dark-grey;
+      text-decoration: none;
+      padding-bottom: 5px;
+      line-height: 25px;
+      &.social-media {
+        font-size: 1.2em;
+        color: grey;
+      }
+
+      &:hover {
+        color: $white;
+        transition: all 0.3s ease-in-out 0s;
+        border-bottom: solid $red-bg 2.5px;
+      }
     }
   }
 }
